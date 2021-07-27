@@ -1,0 +1,5 @@
+function  processOddPositions(arr) {
+  return arr.filter((e, i) => i & 1).map(e => e * 2).reverse().join(' ')
+}
+
+// console.log( processOddPositions([10, 15, 20, 25]))
